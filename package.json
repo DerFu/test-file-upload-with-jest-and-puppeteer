@@ -1,0 +1,25 @@
+{
+  "name": "jest-puppeteer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "babel-jest": "^24.9.0",
+    "jest": "^24.9.0",
+    "jest-puppeteer": "^4.3.0",
+    "puppeteer": "^1.19.0"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.4.4",
+    "@types/jest": "^24.0.18"
+  },
+  "jest": {
+    "verbose": true,
+    "preset": "jest-puppeteer",
+    "setupFiles": [
+      "<rootDir>/jest.setup.js"
+    ]
+  }
+}
